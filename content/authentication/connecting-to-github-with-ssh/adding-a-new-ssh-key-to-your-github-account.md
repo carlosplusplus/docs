@@ -75,7 +75,7 @@ gh ssh-key add KEY-FILE --title "personal laptop"
 If you generated your SSH key by following the instructions in [AUTOTITLE](/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), you can add the key to your account with this command.
 
 ```shell
-gh ssh-key add ~/.ssh/id_ed25519.pub --type signing
+gh ssh-key add ~/.ssh/id_ed25519.pub --type {authentication|signing}
 ```
 
 {% endcli %}
